@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            background-color: lightslategray;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0px;
+        }
+        header{
+            background-color: white;
+            margin: auto;
+            width: 560px;
+            border-radius: 20px 0px;
+            box-shadow: 5px 3px 3px #0000001f;
+            
+        }
+        h1{
+            padding: 2px;
+            /*inset = sombra interna*/
+            box-shadow: inset 5px 5px 3px #0000001e;
+        
+        }
+        p{
+            margin: 0px;
+        }
+        nav{
+            background-color: #646464;
+            color: white;
+            padding: 2px;
+        }
+        a{
+            text-decoration: none;
+            color: white;
+        }
+        main{
+            background-color: white;
+            color: black;
+            margin: 15px auto 15px auto;
+            width: 960px;
+            padding: 5px;
+            border-radius: 10px 30px 50px 70px;
+            box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.151);
+        }
+        main > p{
+            padding: 5px 0px 20px 2px
+        }
+        .artido{
+            background-color: gray;
+            color: white;
+            padding: 2px;
+            
+        }
+        .mudar{
+            background-color: lightgray;
+            padding: 2px;
+        }
+        footer{
+            background-color: black;
+            color: white;
+            margin: 0px;
+            padding: 5px;
+        }
+        footer > p{
+            margin-left: 570px;
+        }
+        div#bola{
+            height: 100px;
+            width: 100px;
+            background-color: white;
+            border-radius: 50%;
+            margin: 13px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+         <p><a href="#">Link</a> 
+            <a href="#">Link</a> 
+            <a href="#">Link</a> 
+            <a href="#">Link</a> 
+            <a href="#">Link</a> 
+            <a href="#">Link</a>
+        </p>
+        </nav>
+    </header>
+    <main>
+        <p>Esportes Politica One piece</p>
+        <article class="mudar">
+            <h1>Noticia sobre sei la</h1>
+            <section>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem ut earum, molestiae iusto repellendus hic sit sapiente sed similique deleniti ipsum ex et tempora! Repellat temporibus mollitia dicta nesciunt quos!
+                <article class="artido">Artigo sobre nao sei</article>
+            </section>
+        </article>
+    </main>
+    <footer>
+        <p>Desenvolvido por Eu</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>

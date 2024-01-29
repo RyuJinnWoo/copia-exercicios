@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testando Fontes em CSS</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            /*
+            Medidas Absolutas
+            cm(centimetro), mm(milimetro), in(polegada),px(pixel),pt(ponto),pc(paica)
+
+            Medidas Relativas (R=relativo)
+            em(R tamanho do M), ex(R tamanho do X), rem(R tamanho do root do M), vw(R tamanho da tela"view port") ,vh(R altura da "view port") , %(porcentagem)
+
+            Recomendado usar em font-size: em, px
+            16px geralmente = 1em
+
+            16px é o tamanho padrão(original)
+            */
+            font-size: 1em;
+
+            /*lighter normal bold bolder
+        leve, meio grande, grande, grandao e mais escura*/
+        }
+        
+        h1{
+            /* shorthand (<- é uma propiedade) font
+
+            ORDEM
+            - font-style -> font-weight -> font-size -> font-family
+            
+            font-family: 'work Sans', sans-serif;
+            font-weight: bolder;
+            font-size: 3em
+            font-style: ítalic;
+            */
+
+            font: italic bolder 3em 'Arial', sans-serif;
+
+        }
+        h3{
+            font: normal lighter 3em 'Arial', sans-serif;
+            text-decoration: overline;
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa sed ad nesciunt laudantium, dicta odio repudiandae tempore cum amet praesentium fugiat maiores ab quibusdam exercitationem consequatur ratione quaerat atque laboriosam?</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto culpa temporibus, sunt fuga laudantium eius distinctio necessitatibus unde tempore at recusandae deserunt magnam ullam. Ex totam impedit aut sed eius?</p>
+    <h2>Subitítulo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam atque iusto enim eveniet nemo, repellendus sit perferendis doloribus similique repudiandae neque corporis, quisquam magnam at consequuntur. Culpa molestiae quas ipsa!</p>
+    <h3>TESTE</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque eveniet dignissimos repudiandae labore vitae animi laborum sunt expedita quas repellat officia cumque at aperiam dolore minima nisi magnam, eum nemo?</p>
+</body>
+</html>
